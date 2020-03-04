@@ -58,7 +58,6 @@ def run(songs)
   while true do 
   puts "Please enter a command:"
   command = gets.strip
-  while command 
   if command == "exit"
     exit_jukebox
     break 
@@ -69,8 +68,7 @@ def run(songs)
     elsif command == "help"
      help 
    else puts "Invalid entry"
-    end 
-  end 
+    end
 end 
 end 
 
